@@ -3,6 +3,9 @@
   <main>
     <router-view></router-view>
   </main>
+  <footer>
+    <router-view name='footer'></router-view>
+  </footer>
 </template>
 
 <script>
@@ -38,9 +41,7 @@ export default {
     };
   },
   methods: {
-    setActivePage(page) {
-      this.activePage = page;
-    },
+
   },
 };
 </script>

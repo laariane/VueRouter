@@ -39,6 +39,6 @@ a {
 
 a:hover,
 a:active {
-  background-color: #220a8d;
+  background-color: #222831;
 }
 </style>
